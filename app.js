@@ -22,7 +22,7 @@ app.post('/username', (req, res) => {
         }
         let userIsKnown = checkIfUserIsKnown(userIPaddress, users)
         if (!userIsKnown) {
-            users.push({ 'ip': userIPaddress, 'username': username })
+            users.push({ ip: userIPaddress, username })
             fs.writeFile('knownUsers.json', JSON.stringify(users), function (err) {
                 if (err) throw err
             })
