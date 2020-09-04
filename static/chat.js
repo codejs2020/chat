@@ -22,7 +22,6 @@ fetch('/username', {
 
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
-    // Ovde nece da procita username , ne razumem zasto
     const data = { message: messageInputField.value, username: username };
 
     fetch('/message', {
