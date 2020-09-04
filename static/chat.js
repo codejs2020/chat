@@ -22,7 +22,7 @@ fetch('/username', {
 
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
-    const data = { message: messageInputField.value, username: username };
+    const data = { message: messageInputField.value, username };
 
     fetch('/message', {
         method: 'POST',
@@ -51,7 +51,6 @@ function chatRefresh() {
         .then(text => {
             for (let item of text) {
                 output += `<span class='blueText'>${item['author']}</span> :<strong>${item['message']}</strong> || ${item['timestamp']}<br>`
-                // console.log(text)
             }
             document.getElementById('messagesBox').innerHTML = output
         })
