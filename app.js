@@ -38,7 +38,12 @@ app.post('/username', (req, res) => {
         } catch (e) {
             messages = []
         }
-        messages.push({ 'messageID': messages.length, 'author': 'admin', 'message': `${username} has entered the chatroom`, 'timestamp': new Date() })
+        messages.push({
+            messageID: messages.length,
+            author: 'admin',
+            message: `${username} has entered the chatroom`,
+            timestamp: new Date()
+        })
 
 
 
@@ -61,17 +66,20 @@ app.post('/message', (req, res) => {
         } catch (e) {
             json = []
         }
-        json.push({ 'messageID': json.length, 'author': (req.body.username ? req.body.username : 'Anonymous'), 'message': req.body.message, 'timestamp': new Date() })
+        json.push({
+            messageID: json.length,
+            author: (req.body.username ? req.body.username : 'Anonymous'),
+            message: req.body.message,
+            timestamp: new Date()
+        })
 
         fs.writeFile('messages.json', JSON.stringify(json), function (err) {
             if (err) throw err
         })
     })
 
-    fs.appendFile('messages.txt', req.body.message + "\n", function (err) {
-        if (err) throw err
-    })
-    res.json(['Hello'])
+
+    res.status(201).json('sent')
 })
 app.get('/messages', (req, res) => {
     fs.readFile('messages.json', function (err, data) {
