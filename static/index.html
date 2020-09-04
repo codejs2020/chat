@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <form method="POST">
-        <div id="messages">
-            
+
+    <div class="container">
+        <h1>JS Chat </h1>
+        <div id="mainField">
+
+            <div id="messagesBox" class="box">
+
+            </div>
+            <div id="participantsBox" class="box">
+                <h2>Active participants:</h2>
+            </div>
         </div>
-        <input type="text" name="message" id="message">
-        <input type="submit" value="Send">
+        <form method="POST" id="messageInputForm">
+            <input type="text" name="message" id="messageInputField">
+            <input type="submit" value="Send" id="sendButton">
+        </form>
     </div>
 
     <script src="/chat.js"></script>
 </body>
+
 </html>

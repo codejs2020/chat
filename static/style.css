@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border-radius: 2em;
+    border: 0.1em solid black;
+    box-shadow: 0 0.2em 1em rgba(0,0,0,0.3);
+    padding: 2em;
+    margin: 5em auto;
+    width: 60vw;
+    height: 80vh;
+    position: relative;
+    
+}
+#mainField{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box{
+    border-radius: 1em;
+    border: 0.1em solid rgb(173, 164, 164);
+    box-shadow: 0 0.2em 1em rgba(0,0,0,0.3);
+    padding: 3em;
+    height: 60vh;
+    margin-left: 0.5em;
+}
+#messageInputForm{
+    position: absolute;
+    margin-bottom: 1em;
+    bottom: 0;
+}
+#messageInputField{
+    border: 0.1em solid rgb(92, 214, 31);
+    border-radius: 1em;
+    padding: 1em;
+}
+#messageInputField:focus{
+    outline: none;
+}
+#messagesBox{
+    width: 38vw;
+}
+#participantsBox{
+    width: 20vw;
+}
+
+#sendButton{
+    background-color: rgb(92, 214, 31);
+    color:#fff;
+    border-radius: 1em;
+    padding: 1em;
+    width: 6em;
+    outline: none;
+
+}
+.blueText{
+    color:rgb(30, 41, 204)
+}
