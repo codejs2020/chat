@@ -1,92 +1,38 @@
 [
     {
-        "messageID": 0,
-        "author": "admin",
-        "message": "aa has entered the chatroom",
-        "timestamp": "2020-09-04T10:48:44.885Z"
-    },
-    {
-        "messageID": 1,
-        "author": "admin",
-        "message": "bob has entered the chatroom",
-        "timestamp": "2020-09-04T11:22:43.355Z"
-    },
-    {
-        "messageID": 2,
-        "author": "bob",
-        "message": "hello",
-        "timestamp": "2020-09-04T11:22:49.010Z"
-    },
-    {
         "messageID": 3,
         "author": "admin",
-        "message": "jim has entered the chatroom",
-        "timestamp": "2020-09-04T11:22:54.097Z"
+        "message": "<span class='redText'>Anonymous 3 has entered the chatroom</span>",
+        "timestamp": "2020-09-05T13:31:58.413Z"
     },
     {
         "messageID": 4,
-        "author": "jim",
-        "message": "HI!",
-        "timestamp": "2020-09-04T11:22:59.809Z"
+        "author": "Anonymous 3",
+        "message": "aa",
+        "timestamp": "2020-09-05T13:32:05.373Z"
     },
     {
         "messageID": 5,
         "author": "admin",
-        "message": "tim has entered the chatroom",
-        "timestamp": "2020-09-04T11:25:04.993Z"
+        "message": "<span class='redText'>jim has entered the chatroom</span>",
+        "timestamp": "2020-09-05T13:35:41.993Z"
     },
     {
         "messageID": 6,
-        "author": "tim",
-        "message": "adsdfs",
-        "timestamp": "2020-09-04T11:25:15.890Z"
+        "author": "jim",
+        "message": "aa",
+        "timestamp": "2020-09-05T13:36:01.909Z"
     },
     {
         "messageID": 7,
         "author": "admin",
-        "message": "aaa has entered the chatroom",
-        "timestamp": "2020-09-04T11:27:16.851Z"
+        "message": "<span class='redText'>bob has entered the chatroom</span>",
+        "timestamp": "2020-09-05T14:01:46.572Z"
     },
     {
         "messageID": 8,
-        "author": "aaa",
-        "message": "😄 ",
-        "timestamp": "2020-09-04T11:27:49.679Z"
-    },
-    {
-        "messageID": 9,
-        "author": "admin",
-        "message": "ja has entered the chatroom",
-        "timestamp": "2020-09-04T18:11:25.034Z"
-    },
-    {
-        "messageID": 10,
-        "author": "ja",
-        "message": "proba",
-        "timestamp": "2020-09-04T18:11:32.836Z"
-    },
-    {
-        "messageID": 11,
-        "author": "admin",
-        "message": "ja2 has entered the chatroom",
-        "timestamp": "2020-09-04T18:18:59.599Z"
-    },
-    {
-        "messageID": 12,
-        "author": "ja2",
-        "message": "proba2",
-        "timestamp": "2020-09-04T18:19:05.903Z"
-    },
-    {
-        "messageID": 13,
-        "author": "admin",
-        "message": "jj has entered the chatroom",
-        "timestamp": "2020-09-04T20:04:38.470Z"
-    },
-    {
-        "messageID": 14,
-        "author": "jj",
-        "message": "aa",
-        "timestamp": "2020-09-04T20:04:44.640Z"
+        "author": "bob",
+        "message": "hello",
+        "timestamp": "2020-09-05T14:01:52.084Z"
     }
 ]

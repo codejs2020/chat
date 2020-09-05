@@ -1,8 +1,7 @@
-const participantsDisplay = document.getElementById('participants')
+const participantsDisplay = document.getElementById('participantsDisplay')
 const usernameInput = document.getElementById('usernameInput')
 const messageInputField = document.getElementById('messageInputField')
 let username = prompt('Enter username')
-
 
 fetch('/username', {
     method: 'POST',
@@ -14,11 +13,11 @@ fetch('/username', {
     .then(response => response.json())
     .then(data => {
         console.log('Success:', data);
+        username = data
     })
     .catch((error) => {
         console.error('Error:', error);
     });
-
 
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -42,8 +41,6 @@ document.querySelector('form').addEventListener('submit', (e) => {
 
 })
 
-
-setInterval(chatRefresh, 2000)
 function chatRefresh() {
     let output = ''
     fetch('/messages')
@@ -54,6 +51,18 @@ function chatRefresh() {
             }
             document.getElementById('messagesBox').innerHTML = output
         })
-    // fetch('/activeUsers') TODO -- uraditi endpoint da vrati aktivne korisnike u participants polje
 };
+function participantsRefresh() {
+    let output = ''
+    fetch('/participants')
+        .then(response => response.json())
+        .then(text => {
+            for (let item of text) {
+                output += `<span class='blueText'>${item['username']}</span><br>`
+            }
+            participantsDisplay.innerHTML = output
+        })
+}
 
+setInterval(chatRefresh, 2000)
+setInterval(participantsRefresh, 2000)
