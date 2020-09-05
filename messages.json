@@ -34,5 +34,29 @@
         "author": "bob",
         "message": "hello",
         "timestamp": "2020-09-05T14:01:52.084Z"
+    },
+    {
+        "messageID": 9,
+        "author": "admin",
+        "message": "<span class='redText'>jim has entered the chatroom</span>",
+        "timestamp": "2020-09-05T20:35:10.422Z"
+    },
+    {
+        "messageID": 10,
+        "author": "jim",
+        "message": "hey",
+        "timestamp": "2020-09-05T20:35:18.497Z"
+    },
+    {
+        "messageID": 11,
+        "author": "admin",
+        "message": "<span class='redText'>Anonymous 2 has entered the chatroom</span>",
+        "timestamp": "2020-09-05T20:36:24.609Z"
+    },
+    {
+        "messageID": 12,
+        "author": "admin",
+        "message": "<span class='redText'>Anonymous 3 has entered the chatroom</span>",
+        "timestamp": "2020-09-05T20:36:34.457Z"
     }
 ]

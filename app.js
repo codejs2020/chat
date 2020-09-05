@@ -1,11 +1,8 @@
 const express = require('express')
 const fs = require('fs')
 const { checkIfUserIsKnown } = require('./utils')
+let { anonymousCounter, port, maximumDisplayedMessages } = require('./appConfig')
 const app = express()
-const port = process.env.NODE_PORT || 3333
-let messageCounter = 1
-let anonymousCounter = 1
-let maximumDisplayedMessages = 25
 
 app.use(express.static('static'))
 app.use(express.json())
@@ -54,7 +51,7 @@ app.post('/username', (req, res) => {
             messages = []
         }
         messages.push({
-            messageID: ++messageCounter,
+            messageID: messages[messages.length - 1]['messageID'] + 1,
             author: 'admin',
             message: `<span class='redText'>${username} has entered the chatroom</span>`,
             timestamp: new Date()
@@ -77,7 +74,7 @@ app.post('/message', (req, res) => {
             messages = []
         }
         messages.push({
-            messageID: ++messageCounter,
+            messageID: messages[messages.length - 1]['messageID'] + 1,
             author: (req.body.username ? req.body.username : 'Anonymous'),
             message: req.body.message,
             timestamp: new Date()
