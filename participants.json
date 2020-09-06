@@ -25,5 +25,8 @@
     },
     {
         "username": "&lt;hello%gt;"
+    },
+    {
+        "username": "<hello>"
     }
 ]

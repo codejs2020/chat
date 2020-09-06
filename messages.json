@@ -82,5 +82,11 @@
         "author": "admin",
         "message": "<span class='redText'>&#59;&lt;script&gt;alert('hello')</script> has entered the chatroom</span>",
         "timestamp": "2020-09-06T08:40:38.366Z"
+    },
+    {
+        "messageID": 23,
+        "author": "admin",
+        "message": "<span class='redText'>&lt;hello&gt; has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:53:50.610Z"
     }
 ]

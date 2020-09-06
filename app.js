@@ -9,7 +9,7 @@ app.use(express.json())
 
 app.post('/username', (req, res) => {
     let userIPaddress = req.ip
-    let username = req.body.username ? req.body.username : `Anonymous ${++anonymousCounter}`
+    let username = req.body.username ? req.body.username.replace('<', '&lt;').replace('>', '&gt;') : `Anonymous ${++anonymousCounter}`
     fs.readFile('participants.json', function (err, data) {
         if (err) throw err
         let participants
