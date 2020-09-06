@@ -1,7 +1,7 @@
 const participantsDisplay = document.getElementById('participantsDisplay')
 const usernameInput = document.getElementById('usernameInput')
 const messageInputField = document.getElementById('messageInputField')
-let username = prompt('Enter username')
+let username = prompt('Enter username').replace('<', '&lt;').replace('>', '&gt;')
 
 fetch('/username', {
     method: 'POST',

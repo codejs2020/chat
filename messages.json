@@ -1,35 +1,5 @@
 [
     {
-        "messageID": 3,
-        "author": "admin",
-        "message": "<span class='redText'>Anonymous 3 has entered the chatroom</span>",
-        "timestamp": "2020-09-05T13:31:58.413Z"
-    },
-    {
-        "messageID": 4,
-        "author": "Anonymous 3",
-        "message": "aa",
-        "timestamp": "2020-09-05T13:32:05.373Z"
-    },
-    {
-        "messageID": 5,
-        "author": "admin",
-        "message": "<span class='redText'>jim has entered the chatroom</span>",
-        "timestamp": "2020-09-05T13:35:41.993Z"
-    },
-    {
-        "messageID": 6,
-        "author": "jim",
-        "message": "aa",
-        "timestamp": "2020-09-05T13:36:01.909Z"
-    },
-    {
-        "messageID": 7,
-        "author": "admin",
-        "message": "<span class='redText'>bob has entered the chatroom</span>",
-        "timestamp": "2020-09-05T14:01:46.572Z"
-    },
-    {
         "messageID": 8,
         "author": "bob",
         "message": "hello",
@@ -58,5 +28,59 @@
         "author": "admin",
         "message": "<span class='redText'>Anonymous 3 has entered the chatroom</span>",
         "timestamp": "2020-09-05T20:36:34.457Z"
+    },
+    {
+        "messageID": 13,
+        "author": "admin",
+        "message": "<span class='redText'>Anonymous 2 has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:18:43.485Z"
+    },
+    {
+        "messageID": 15,
+        "author": "Anonymous 2",
+        "message": "dfga",
+        "timestamp": "2020-09-06T08:19:18.191Z"
+    },
+    {
+        "messageID": 16,
+        "author": "admin",
+        "message": "<span class='redText'>aa has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:21:33.071Z"
+    },
+    {
+        "messageID": 17,
+        "author": "aa",
+        "message": "<script>alert('suckers')</script>",
+        "timestamp": "2020-09-06T08:21:42.007Z"
+    },
+    {
+        "messageID": 18,
+        "author": "admin",
+        "message": "<span class='redText'>&lt;script%gt; has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:23:28.090Z"
+    },
+    {
+        "messageID": 19,
+        "author": "&lt;script%gt;",
+        "message": "&lt;script%gt;alert('suckers')</script>",
+        "timestamp": "2020-09-06T08:23:41.712Z"
+    },
+    {
+        "messageID": 20,
+        "author": "admin",
+        "message": "<span class='redText'>&lt;hello%gt; has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:34:05.412Z"
+    },
+    {
+        "messageID": 21,
+        "author": "admin",
+        "message": "<span class='redText'>&lt;script&gt;alert('suckers')</script> has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:36:26.722Z"
+    },
+    {
+        "messageID": 22,
+        "author": "admin",
+        "message": "<span class='redText'>&#59;&lt;script&gt;alert('hello')</script> has entered the chatroom</span>",
+        "timestamp": "2020-09-06T08:40:38.366Z"
     }
 ]

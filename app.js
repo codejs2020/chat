@@ -76,7 +76,7 @@ app.post('/message', (req, res) => {
         messages.push({
             messageID: messages[messages.length - 1]['messageID'] + 1,
             author: (req.body.username ? req.body.username : 'Anonymous'),
-            message: req.body.message,
+            message: (req.body.message).replace('<', '&lt;').replace('>', '&gt;'),
             timestamp: new Date()
         })
         if (messages.length > maximumDisplayedMessages) messages.shift()
