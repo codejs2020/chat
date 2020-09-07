@@ -1,1 +1,80 @@
-["cao","kako si","asdfaf","asdfsd","tt","asdfsadf","kako si","dobro je"]
+[
+  {
+    "messageID": 16,
+    "author": "admin",
+    "message": "<span class='redText'>aa has entered the chatroom</span>",
+    "timestamp": "2020-09-06T08:21:33.071Z"
+  },
+  {
+    "messageID": 17,
+    "author": "aa",
+    "message": "<script>alert('suckers')</script>",
+    "timestamp": "2020-09-06T08:21:42.007Z"
+  },
+  {
+    "messageID": 18,
+    "author": "admin",
+    "message": "<span class='redText'>&lt;script%gt; has entered the chatroom</span>",
+    "timestamp": "2020-09-06T08:23:28.090Z"
+  },
+  {
+    "messageID": 19,
+    "author": "&lt;script%gt;",
+    "message": "&lt;script%gt;alert('suckers')</script>",
+    "timestamp": "2020-09-06T08:23:41.712Z"
+  },
+  {
+    "messageID": 20,
+    "author": "admin",
+    "message": "<span class='redText'>&lt;hello%gt; has entered the chatroom</span>",
+    "timestamp": "2020-09-06T08:34:05.412Z"
+  },
+  {
+    "messageID": 21,
+    "author": "admin",
+    "message": "<span class='redText'>&lt;script&gt;alert('suckers')</script> has entered the chatroom</span>",
+    "timestamp": "2020-09-06T08:36:26.722Z"
+  },
+  {
+    "messageID": 22,
+    "author": "admin",
+    "message": "<span class='redText'>&#59;&lt;script&gt;alert('hello')</script> has entered the chatroom</span>",
+    "timestamp": "2020-09-06T08:40:38.366Z"
+  },
+  {
+    "messageID": 23,
+    "author": "admin",
+    "message": "<span class='redText'>&lt;hello&gt; has entered the chatroom</span>",
+    "timestamp": "2020-09-06T08:53:50.610Z"
+  },
+  {
+    "messageID": 24,
+    "author": "admin",
+    "message": "<span class='redText'>badb has entered the chatroom</span>",
+    "timestamp": "2020-09-07T12:24:00.110Z"
+  },
+  {
+    "messageID": 25,
+    "author": "badb",
+    "message": "<span class='noOverflow'> o prevent overflow, an otherwise unbreakable string of characters — like a long word or URL — may be broken at any point if there are no otherwise-acceptable break points in the line. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by the word break are considered when calculating min-content intrinsic sizes.o prevent overflow, an otherwise unbreakable string of characters — like a long word or URL — may be broken at any point if there are no otherwise-acceptable break points in the line. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by the word break are considered when calculating min-content intrinsic sizes.o prevent overflow, an otherwise unbreakable string of characters — like a long word or URL — may be broken at any point if there are no otherwise-acceptable break points in the line. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by the word break are considered when calculating min-content intrinsic sizes.o prevent overflow, an otherwise unbreakable string of characters — like a long word or URL — may be broken at any point if there are no otherwise-acceptable break points in the line. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by the word break are considered when calculating min-content intrinsic sizes. </span>",
+    "timestamp": "2020-09-07T12:24:05.007Z"
+  },
+  {
+    "messageID": 26,
+    "author": "admin",
+    "message": "<span class='redText'>me has entered the chatroom</span>",
+    "timestamp": "2020-09-07T12:29:37.109Z"
+  },
+  {
+    "messageID": 27,
+    "author": "me",
+    "message": "<span class='noOverflow'> &lt;form method=\"POST\" id=\"messageInputForm\"&gt;             &lt;input type=\"text\" name=\"message\" id=\"messageInputField\"&gt;             &lt;input type=\"submit\" value=\"Send\" id=\"sendButton\"&gt;         &lt;/form&gt; </span>",
+    "timestamp": "2020-09-07T12:29:52.796Z"
+  },
+  {
+    "messageID": 28,
+    "author": "me",
+    "message": "<span class='noOverflow'> app.get('/messages', (req, res) =&gt; {     fs.readFile('messages.json', function (err, data) {         if (err) throw err         let messages = jsonParseWithErrorCheck(data.toString())         res.json(messages)     }) }) </span>",
+    "timestamp": "2020-09-07T12:30:17.867Z"
+  }
+]

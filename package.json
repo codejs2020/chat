@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "eslint src/**/*.js",
+    "lint:js:fix": "npm run lint:js -- --fix",
     "start": "nodemon app.js -e js"
   },
   "keywords": [],
@@ -14,6 +16,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^7.8.1",
     "nodemon": "^2.0.4"
   }
 }
