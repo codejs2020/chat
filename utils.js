@@ -7,4 +7,13 @@ exports.checkIfUserIsKnown = (ip, userList) => {
     return knownUsersIPs.includes(ip)
 }
 
+exports.jsonParseWithErrorCheck = json => {
+    let ret
+    try {
+        ret = JSON.parse(json)
+    } catch (e) {
+        ret = []
+    }
+    return ret
+}
 

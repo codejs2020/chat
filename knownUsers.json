@@ -1,1 +1,10 @@
-[{"ip":"::ffff:127.0.0.1","username":"&lt;hello%gt;"},{"ip":"::1","username":"&lt;script&gt;alert('suckers')</script>"}]
+[
+    {
+        "ip": "::ffff:127.0.0.1",
+        "username": "&lt;hello%gt;"
+    },
+    {
+        "ip": "::1",
+        "username": "&lt;script&gt;alert('suckers')</script>"
+    }
+]
